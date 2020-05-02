@@ -68,6 +68,12 @@
     "test:watch": "node scripts/test.js",
     "lint": "./node_modules/.bin/eslint src"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm run lint && npm test && npm run build"
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
