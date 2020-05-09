@@ -1,0 +1,42 @@
+$font-family-sans-serif:  "Poppins", Arial, Helvetica, sans-serif;
+$font-family-serif:       "Work Sans", Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-size-base:          16px;
+$font-size-large:         18px;
+$font-size-small:         15px;
+$font-size-h1:            45px;
+$font-size-h2:            35px;
+$font-size-h3:            30px;
+$font-size-h4:            25px;
+$font-size-h5:            20px;
+$font-size-h6:            17px;
+
+$color-background:      #001628;
+
+// Small devices
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }

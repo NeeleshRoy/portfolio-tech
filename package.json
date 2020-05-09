@@ -53,7 +53,6 @@
     "react-router-dom": "^5.1.2",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
-    "sass-loader": "8.0.2",
     "semver": "6.3.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "2.3.5",
@@ -103,7 +102,9 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
-    "react-test-renderer": "^16.13.1"
+    "node-sass": "^4.14.0",
+    "react-test-renderer": "^16.13.1",
+    "sass-loader": "^8.0.2"
   },
   "jest": {
     "roots": [
