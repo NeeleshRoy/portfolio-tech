@@ -21,6 +21,7 @@ var transEndEventNames = {
   msTransition: 'MSTransitionEnd',
   transition: 'transitionend'
 }
+console.log(Modernizr)
 var transEndEventName = transEndEventNames[Modernizr.prefixed('transition')]
 var docscroll = 0
 // click event (if mobile use touchstart)
