@@ -1,0 +1,38 @@
+lottie-player {
+    width: 400px;
+    height: 400px;
+}
+.hero-cta {
+    margin-top: 5vh;
+}
+
+.cta-buttons {
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    a {
+        display: block;
+        width: 200px;
+        color: white;
+        text-decoration: none;
+        padding: 15px 25px;
+        @include vendor-prefix('border-radius', '20px');
+    }
+}
+
+.design-portfolio-cta {
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(252,74,26,1) 0%, rgba(247,183,51,1) 100%);
+}
+
+.github-portfolio-cta {
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(0,198,255,1) 0%, rgba(0,114,255,1)100%);
+}
+
+.dev-portfolio-cta {
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(157,80,187,1) 0%, rgba(110,72,170,1) 100%);
+}

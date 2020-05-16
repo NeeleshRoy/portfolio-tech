@@ -16,23 +16,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: calc(18px + 2.4vw)
+    font-size: calc(18px + 2.4vw);
+    line-height: normal;
 }
 
 h2 {
-    font-size: calc(18px + 1.5vw)
+    font-size: calc(18px + 1.5vw);
+    line-height: normal;
 }
+
 h3 {
-    font-size: calc(18px + 1.2vw)
+    font-size: calc(18px + 1.2vw);
+    line-height: normal;
 }
 h4 {
     font-size: 18px;
+    line-height: normal;
 }
 h5 {
     font-size: $font-size-large;
     font-weight: 600;
+    line-height: normal;
 }
 h6 {
     font-size: $font-size-base;
     font-weight: 600;
+    line-height: normal;
+}
+
+.primary-gradient-text {
+    background: -webkit-linear-gradient(#ff6a00, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

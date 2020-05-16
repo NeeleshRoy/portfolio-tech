@@ -10,9 +10,7 @@ function App () {
   return (
     <Router>
       <div className="App">
-        <div className="container">
-          <Nav routes={routes} />
-        </div>
+        <Nav routes={routes} />
       </div>
     </Router>
   )
